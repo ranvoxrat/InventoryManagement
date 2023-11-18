@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1{
+	font-size: 100px;
+	color: #0c0c0c;
+	margin: 0px;
+	text-align: center;
+    margin-bottom: 40px;
+}
+.form_deg{
+	margin: 0 auto;
+	width: 400px;
+	background: rgba(0,0,0,0);
+	padding:60px;
+	border: 3px solid #fff;
+	border-radius:8px;
+	border-color:#a2b9cf;
+	text-align: center;
+}
+.label_deg{
+	display: inline-block;
+	color: aliceblue;
+	width: 100px;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	font-size: 28px;
+	background: none;
+}
+.input{
+	border: 3px solid #fff;
+	border-radius:8px;
+	border-color:#a2b9cf;
+	height: 40px;
+	width: 70%;
+	display: inline-block;
+	
+}
+.button{
+    font-size: 20px;
+	padding: 7px;
+	background: #0e0338;
+	border: none;
+	color:fff;
+	margin-top:10px;
+	margin-bottom: 0px;
+	border-radius:8px;
+}
+
+button:hover{
+	opacity: .7;
+}
+.maincontainer {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: calc(100vh - 100px);
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.849), rgba(14, 14, 14, 0.899)), url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.login{
+    position: relative;
+	display: flex;
+	width: 50%!important;
+	box-shadow: 1px 0px 4px white;
+}
+.line{
+	position: absolute;
+	height: 35px;
+	width: 5px;
+	left: 27px;
+	top: 27px;
+	background-color: red;
+}
+.card {
+	background-color:rgba(0, 0, 0, 0.514);
+    width: 100%!important;
+	padding: 20px;
+}
+.btn-login{
+	float: right;
+	width: 30%;
+	height: auto;
+	padding: 6px;
+	border: none;
+	background-color: none;
+
+}
+.form-control{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
